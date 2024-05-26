@@ -18,7 +18,7 @@ Breadcrumbs.Crumb = ({ href, children, delegated }) => {
 
 const CrumbWrapper = styled.div`
   &:not(:first-of-type) {
-    margin-left: 8px;
+    margin-left: 7px;
 
     &::before {
       content: '/';
