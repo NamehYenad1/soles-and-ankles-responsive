@@ -8,7 +8,7 @@ const Breadcrumbs = ({ children }) => {
 
 Breadcrumbs.Crumb = ({ href, children, delegated }) => {
   return (
-    <CrumbWrapper>
+    <CrumbWrapper
       <CrumbLink href={href} {...delegated}>
         {children}
       </CrumbLink>
@@ -18,7 +18,7 @@ Breadcrumbs.Crumb = ({ href, children, delegated }) => {
 
 const CrumbWrapper = styled.div`
   &:not(:first-of-type) {
-    margin-left: 7px;
+    margin-left: 8px;
 
     &::before {
       content: '/';
