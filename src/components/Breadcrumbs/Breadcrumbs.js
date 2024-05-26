@@ -8,7 +8,7 @@ const Breadcrumbs = ({ children }) => {
 
 Breadcrumbs.Crumb = ({ href, children, delegated }) => {
   return (
-    <CrumbWrapper
+    <CrumbWrapper>
       <CrumbLink href={href} {...delegated}>
         {children}
       </CrumbLink>
